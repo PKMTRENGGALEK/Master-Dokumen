@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Master Dokumen</title>
+    <!-- Bulma CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+    />
+    <style>
+      html,
+      body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+          url("https://images.pexels.com/photos/7722796/pexels-photo-7722796.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+            no-repeat center center fixed;
+        background-size: cover;
+        color: white;
+        padding: 2rem 1.5rem;
+      }
+
+      /* Card dengan background putih transparan */
+      .card {
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #363636;
+        border-radius: 1rem;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+        max-width: 900px;
+        width: 100%;
+      }
+
+      /* Header judul */
+      .title {
+        color: #2e3a59;
+        margin-bottom: 1rem;
+      }
+
+      /* Table Bulma custom */
+      table.table.is-hoverable tbody tr:hover {
+        background-color: #e6f0ff;
+      }
+
+      /* Tombol link */
+      .button.is-primary {
+        background-color: #3273dc;
+        border-color: transparent;
+      }
+
+      .button.is-primary:hover {
+        background-color: #2759bd;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container is-max-desktop">
+      <div class="card">
+        <section class="section">
+          <h3 class="title is-3 has-text-centered">📄 Master Dokumen</h3>
+
+          <table class="table is-fullwidth is-hoverable is-striped">
+            <thead>
+              <tr>
+                <th style="width: 5%">No</th>
+                <th style="width: 45%">Nama Dokumen</th>
+                <th style="width: 50%">Link Drive</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>1</td>
+                <td>Dokumen SOP Puskesmas</td>
+                <td>
+                  <a
+                    href="https://drive.google.com/file/d/your-file-id/view"
+                    target="_blank"
+                    class="button is-small is-primary"
+                    >Lihat Dokumen</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>SK</td>
+                <td>
+                  <a
+                    href="https://drive.google.com/file/d/your-file-id/view"
+                    target="_blank"
+                    class="button is-small is-primary"
+                    >Lihat Dokumen</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>SOP</td>
+                <td>
+                  <a
+                    href="https://drive.google.com/file/d/your-file-id/view"
+                    target="_blank"
+                    class="button is-small is-primary"
+                    >Lihat Dokumen</a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Spreadsheet Daftar Dokumen SK, SOP dll</td>
+                <td>
+                  <a
+                    href="https://drive.google.com/file/d/your-file-id/view"
+                    target="_blank"
+                    class="button is-small is-primary"
+                    >Lihat Dokumen</a
+                  >
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+      </div>
+    </div>
+  </body>
+</html>
